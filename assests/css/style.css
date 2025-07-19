@@ -1,0 +1,335 @@
+/*
+Template Name: Shuruwat - Software/Marketing Agency HTML Template
+Author: Askbootstrap
+Author URI: https://www.templatemonster.com/vendors/Askbootstrap
+Version: 1.0
+*/
+
+
+/*
+  -- Body
+  -- Top Part
+  -- Navigation Part
+  -- Slider Part
+  -- Logos section
+  -- Pencil Banner
+  -- Gallery Part
+  -- Help Part Starts
+  -- Contact Banner Part
+  -- Footer Section
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:300,300i,400,400i,500,500i,700,700i&display=swap');
+
+/*.. Body ..*/
+
+body {
+	font-family: 'Ubuntu', sans-serif;
+}
+
+h2 {
+	font-weight: 300;
+	font-size: 40px;
+	letter-spacing: 0.5px;
+}
+
+h3 {
+	font-weight: 400;
+	font-size: 20px;
+	letter-spacing: 0.6px;
+	line-height: 32px;
+}
+
+
+/*.. Top Part ..*/
+
+.video-button .fa-play {
+	position: absolute;
+	left: 0;
+	top: -19px;
+	right: 0;
+	bottom: 0;
+	color: #ea3c00;
+	margin: auto;
+	font-size: 60px;
+	text-align: center;
+	text-shadow: 0px 0px 21px #5e6067;
+}
+
+a.video-button {
+	position: relative;
+}
+
+.small-icon img {
+	height: 60px;
+}
+
+
+/*.. Navigation Part ..*/
+
+.text-navbar li {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.text-navbar li a {
+	font-size: 16px;
+	color: #313943 !important;
+	margin: 0px 20px 0px 20px;
+}
+
+.navbtn {
+	color: #fff !important;
+	background-color: #0066cc !important;
+	font-size: 15px;
+	width: 170px;
+	height: 40px;
+	font-weight: 500;
+}
+
+.logoimg {
+	height: 45px;
+}
+
+
+/*.. Slider Part ..*/
+
+.sliderpart h2 {
+	font-weight: 300;
+	font-size: 55px;
+	letter-spacing: 0.5px;
+}
+
+.sliderpart h3 {
+	font-weight: 400;
+	font-size: 25px;
+	letter-spacing: 0.6px;
+	line-height: 32px;
+}
+
+.sliderpart img {
+	border-radius: 10px;
+}
+
+.sliderpart button {
+	font-size: 15px;
+	width: 190px;
+	height: 50px;
+}
+
+
+/*.. Logo section ..*/
+
+.logo-part {
+	padding: 5px;
+	display: flex;
+	justify-content: center;
+}
+
+
+/*.. Pencil Banner ..*/
+
+.link-pencil-banner {
+	text-decoration: none !important;
+	outline: none;
+}
+
+.link-pencil-banner:hover .pencil-banner span {
+	color: #094b7e !important;
+}
+
+.pencil-banner {
+	background-color: #c8ecec;
+}
+
+.border-round {
+	background-color: #47c1bf;
+	border-radius: 50px;
+	color: #fff;
+	height: 30px;
+	width: 350px;
+	font-size: 14px;
+	font-weight: bold;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.pencil-banner p {
+	font-size: 18px;
+	letter-spacing: 0.2px
+}
+
+
+/*.. Gallery Part ..*/
+
+.learnbtn {
+	color: #fff !important;
+	background-color: #0066cc !important;
+	font-size: 15px;
+	width: 300px;
+	height: 45px;
+	font-weight: 500;
+}
+
+.learnbtn:hover {
+	box-shadow: 10px 10px 20px 0 rgba(0, 0, 0, .2);
+}
+
+.book-svg-icon {
+	width: 30px;
+	height: 20px;
+}
+
+.resource-text {
+	padding: 40px 45px 36px 45px;
+	color: #838d9e;
+}
+
+.card-part button {
+	color: #fff !important;
+	background-color: #0066cc !important;
+	font-size: 15px;
+	width: 180px;
+	height: 45px;
+	font-weight: 500;
+}
+
+.card-part button:hover {
+	box-shadow: 10px 10px 20px 0 rgba(0, 0, 0, .2);
+}
+
+.card-part a {
+	text-decoration: none;
+}
+
+
+/*.. Help Part Starts ..*/
+
+.help-part {
+	background-color: #e7eaee;
+}
+
+.help-part p {
+	font-size: 18px;
+}
+
+.help-part .help-part-b {
+	background-color: #d0d6dd;
+	font-size: 18px;
+	border-radius: 8px;
+}
+
+.help-part .help-part-b i {
+	color: #f1af20;
+}
+
+
+/*.. Contact Banner Part ..*/
+
+.contact-banner {
+	background-color: #0057ae;
+	color: #fff;
+}
+
+.contact-banner p {
+	font-size: 22px;
+}
+
+.contact-banner button {
+	color: #0066cc !important;
+	background-color: #fff !important;
+	font-size: 15px;
+	width: 180px;
+	height: 45px;
+	font-weight: 500;
+}
+
+.contact-banner button:hover {
+	box-shadow: 10px 10px 20px 0 rgba(0, 0, 0, .2);
+}
+
+
+/*.. Footer SEction ..*/
+
+.foot-part1 {
+	background: #f3f4f6;
+}
+
+.foot-part1 ul li {
+	font-size: 14px;
+	line-height: 28px;
+}
+
+.foot-part1 ul li a{
+    color: #515f71;
+}
+
+.foot-part1 p {
+	font-weight: 500;
+}
+
+.foot-logo-text {
+	font-size: 17px;
+	font-weight: 400 !important;
+}
+
+.foot-part2 {
+	background-color: #e0e3e6;
+	position: relative;
+}
+
+.foot-part2 li {
+	display: inline;
+	margin: 8px;
+	justify-content: center;
+	align-items: end;
+	font-size: 14px;
+}
+
+.foot-part2 li a{
+    color: #515f71;
+}
+
+.footer-logo {
+	width: 63px;
+}
+
+.faicon {
+	width: 30px;
+	height: 30px;
+	border: 1px solid #515f71;
+	border-radius: 50px;
+	color: #515f71;
+	margin: 3px;
+	text-align: center;
+	line-height: 28px !important;
+}
+
+.svgicon {
+	width: 30px;
+	height: 30px;
+	margin: 12px;
+}
+
+.svgicon-box {
+	width: 55px;
+	height: 55px;
+	background-color: #094b7e;
+	position: fixed;
+	bottom: 30px;
+	right: 25px;
+	border-radius: 5px;
+}
+
+.hire-menu a {
+	background-color: #47c1bf;
+	border-radius: 3px;
+	color: #fff !important;
+	font-size: 10px;
+	font-weight: bold;
+	padding: 3px 4px;
+	text-decoration: none;
+	margin-left: 3px;
+}

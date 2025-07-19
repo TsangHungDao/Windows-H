@@ -1,0 +1,72 @@
+@media screen and (max-width: 992px)
+{
+	h2
+	{
+		font-size: 33px;
+	}
+	h3
+	{
+		font-size: 18px;
+		line-height: 28px;
+	}
+/*.. Home Page ..*/
+	/*.. Navigation Part ..*/
+	.text-navbar li
+	{
+		display: inline-block;
+		margin-top:20px;
+	}
+	.text-navbar li a
+	{		
+		font-size:18px;
+		color:#313943 !important;
+		margin:0px;
+	}
+	.navbar-toggler
+	{	
+		font-size: 20px;
+		color:#0066cc;
+		outline: none;
+	}
+	/*.. Slider Part ..*/
+	.sliderpart
+	{
+		text-align: center;
+	}
+	.sliderpart h2
+	{
+		margin-top:20px;	
+		font-size: 35px;
+	}
+	.sliderpart h3
+	{	
+		font-size: 20px;
+		line-height: 25px;
+	}
+	/*.. Logo Selection Part ..*/
+	.p-responsive
+	{
+		display: none;
+	}
+	/*.. Footer Part ..*/
+	.svgicon-box
+	{
+		width:55px;
+		height:55px;
+		background-color: #094b7e;
+		position: fixed;
+		bottom:25px;
+		right:25px;
+		border-radius:5px;
+	}
+	.svgicon
+	{
+		margin:12px;
+	}
+	.foot-part2 li
+	{
+		margin:0px 34px 0px 10px;
+		line-height:50px;
+	}
+
+}
